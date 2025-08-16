@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             engagement   R-squared:                       0.997
+Model:                            OLS   Adj. R-squared:                  0.997
+Method:                 Least Squares   F-statistic:                 3.610e+05
+Date:                Sat, 16 Aug 2025   Prob (F-statistic):               0.00
+Time:                        15:08:42   Log-Likelihood:                -7255.4
+No. Observations:                5000   AIC:                         1.452e+04
+Df Residuals:                    4994   BIC:                         1.456e+04
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+Intercept                  52.8489      0.040   1305.038      0.000      52.770      52.928
+C(segment)[T.casual]      -43.3519      0.036  -1199.027      0.000     -43.423     -43.281
+C(segment)[T.loyal]       -22.2660      0.044   -502.094      0.000     -22.353     -22.179
+C(plan_type)[T.premium]    -0.0289      0.032     -0.906      0.365      -0.092       0.034
+C(cohort)[T.late]           0.3492      0.030     11.625      0.000       0.290       0.408
+new_rec_engine              3.7707      0.032    117.341      0.000       3.708       3.834
+==============================================================================
+Omnibus:                      269.489   Durbin-Watson:                   2.025
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              310.996
+Skew:                          -0.604   Prob(JB):                     2.94e-68
+Kurtosis:                       2.824   Cond. No.                         6.11
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
