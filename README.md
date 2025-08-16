@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project simulates and analyzes a product experiment for **Steamly**, a fictional media streaming platform. The goal is to evaluate the **causal impact of a new recommendation engine** on user engagement using principled modeling and diagnostic techniques.
+This project simulates and analyzes a product experiment for **Steamly** (_a fictional media streaming platform_). The goal is to evaluate the **causal impact of a new recommendation engine** on user engagement using principled modeling and diagnostic techniques.
 
 Instead of a naive A/B comparison, this project demonstrates how **stratified regression, pre-trend validation**, and **propensity-adjusted estimation** can be used to approximate causal inference in observational settings.
 
