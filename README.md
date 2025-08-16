@@ -1,4 +1,4 @@
-# Engagement Lift Analysis — Steamly Recommender Experiment
+# Engagement Lift Analysis: Steamly Recommender Experiment
 
 ## Overview
 
